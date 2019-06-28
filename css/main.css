@@ -232,6 +232,9 @@ address {
     justify-content: center;
     flex-flow: row wrap;
   }
+  .hero-area h1 {
+    font-size: 2.25em;
+  }
   
   /* Aside */
   
@@ -240,6 +243,32 @@ address {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
+  }
+
+  aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
   }
   
   /* Features */
@@ -296,6 +325,7 @@ address {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
   }
   
   .contact-section {
@@ -303,6 +333,7 @@ address {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #2a423a;
   }
   
   .contact-content p {
@@ -318,6 +349,7 @@ address {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
   }
   
   .faq .content-wrapper {
@@ -335,6 +367,11 @@ address {
   .faq-content {
     margin-bottom: 50px;
   }
+
+  .faq-content h4 {
+    line-height: 1.333;
+    font-weight: 700;
+  }  
   
   /* ==========================================================================
      Helper classes
@@ -419,6 +456,8 @@ address {
     clear: both;
   }
   
+
+
   /* ==========================================================================
      EXAMPLE Media Queries for Responsive Design.
      These examples override the primary ('mobile first') styles.
